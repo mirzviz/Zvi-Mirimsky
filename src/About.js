@@ -10,20 +10,20 @@ const About = ({ className }) => {
       <Container fluid>
         <div className="row bg-light align-items-center">
           <div className="col img height font1 lead d-flex align-items-center justify-content-flex-start">
-            <div className="w-50 text-white text-capitalize">
+            <div className="w-50 text-white">
               <div className="h1 text-uppercase mt-4 pl-4 font-weight-bold">
                 about
               </div>
               <div className="underline bg-danger"></div>
               <li className="h1 my-5">
-                excellent English communicative skills.
+                Excellent English communicative skills.
               </li>
               <li className="h1 my-5">
-                quick absorption of new materials and rapid adaptation to
+                Quick absorption of new materials and rapid adaptation to
                 new situations and challenges.
               </li>
               <li className="h1 my-5">
-                ability to learn new technologies thoroughly and from scratch.
+                Ability to learn new technologies thoroughly and from scratch.
               </li>
             </div>
           </div>
