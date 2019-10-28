@@ -7,7 +7,7 @@ import myPhoto2 from "./assets/cropped.jpeg";
 const About = ({ className }) => {
   return (
     <div className={className}>
-      <Container fluid>
+      <div className="container-fluid">
         <div className="row bg-light align-items-center">
           <div className="col img height font1 lead d-flex align-items-center justify-content-flex-start">
             <div className="w-50 text-white">
@@ -15,20 +15,20 @@ const About = ({ className }) => {
                 about
               </div>
               <div className="underline bg-danger"></div>
-              <li className="h1 my-5">
+              <li className="h3 my-5">
                 Excellent English communicative skills.
               </li>
-              <li className="h1 my-5">
+              <li className="h3 my-5">
                 Quick absorption of new materials and rapid adaptation to
                 new situations and challenges.
               </li>
-              <li className="h1 my-5">
+              <li className="h3 my-5">
                 Ability to learn new technologies thoroughly and from scratch.
               </li>
             </div>
           </div>
         </div>
-      </Container>
+      </div>
     </div>
   );
 };
@@ -48,18 +48,6 @@ export default styled(About)`
       url(${myPhoto}) center/cover fixed no-repeat;
     opacity: 1;
     /* filter: blur(5px); */
-  }
-  .height {
-    min-height: 100vh;
-  }
-  .font1 {
-    font-family: "Kalam", cursive;
-  }
-  .font2 {
-    font-family: "Kaushan Script", cursive;
-  }
-  .font3 {
-    font-family: "Alfa Slab One", cursive;
   }
   /* -------------------------------------- */
   .underline {
