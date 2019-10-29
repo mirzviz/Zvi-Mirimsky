@@ -8,20 +8,28 @@ const Header = ({ className }) => {
       <div className="container-fluid">
         <div className="row height bg-dark pt-3 pb-0 px-5 align-items-center">
           <div className="col text-center">
-            <div>
+
               <a
+                className='mx-3'
                 href="https://www.linkedin.com/in/zvi-mirimsky-755086159/"
                 target="_blank"
               >
-                <i className="fab fa-linkedin fa-3x mx-5"></i>
+                <i className="fab fa-linkedin fa-3x"></i>
               </a>
-              <a href="https://github.com/mirzviz" target="_blank">
-                <i className="fab fa-github fa-3x mx-5"></i>
+              <a
+                className='mx-3' 
+                href="https://github.com/mirzviz" 
+                target="_blank">
+                <i className="fab fa-github fa-3x"></i>
               </a>
-              <a href="https://www.facebook.com/mirzviz" target="_blank">
-                <i className="fab fa-facebook fa-3x mx-5"></i>
+              <a
+                className='mx-3' 
+                href="https://www.facebook.com/mirzviz" 
+                target="_blank">
+                <i className="fab fa-facebook fa-3x"></i>
               </a>
-            </div>
+
+
             <h1 className="m-5 ">
               <div className="h1 text-light text-capitalize font3 mb-2">
                 Zvi Mirimsky

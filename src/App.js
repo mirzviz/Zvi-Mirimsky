@@ -12,7 +12,6 @@ const App = ({ className }) => (
     <Header></Header>
     <Middler></Middler>
     <About></About>
-    {/* <ImageComp></ImageComp> */}
   </div>
 );
 
