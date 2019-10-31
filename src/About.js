@@ -13,7 +13,7 @@ const About = ({ className }) => {
         <div className="row bg-light align-items-center">
           <div className="col img height font1 lead d-flex align-items-center justify-content-flex-start">
             <div className="w-50 text-white">
-              <div className="h1 text-uppercase mt-4 pl-4 font-weight-bold">
+              <div className="h1 text-uppercase mt-4 pl-1 font-weight-bold">
                 about
               </div>
               <div className="underline bg-danger"></div>
@@ -54,7 +54,8 @@ export default styled(About)`
   }
   /* -------------------------------------- */
   .underline {
-    width: 8em;
+    width: 25vw;
     height: 8px;
+    border-radius: 10px;
   }
 `;
