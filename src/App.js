@@ -1,21 +1,24 @@
 import React from "react";
 import styled from "styled-components";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./Header";
 import Middler from "./Middler";
 import About from "./About";
 import ImageComp from "./ImageComp";
 import { media } from "./helper/helperFunctions";
+import NavBar from "./NavBar";
 
 const App = ({ className }) => (
   <div className={className}>
+    <NavBar></NavBar>
     <Header></Header>
     <Middler></Middler>
     <About></About>
   </div>
 );
 
+//global styles
 export default styled(App)`
+overflow-x: hidden;
   h1,
   .h1 {
     font-size: 7vmin;
@@ -62,7 +65,7 @@ export default styled(App)`
         }
 `}
 
-.height {
+  .height {
     min-height: 100vh;
   }
   .font1 {

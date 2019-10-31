@@ -3,10 +3,12 @@ import styled from "styled-components";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import myPhoto from "./assets/me.jpeg";
 import myPhoto2 from "./assets/cropped.jpeg";
+import ScrollableAnchor from "react-scrollable-anchor";
 
 const About = ({ className }) => {
   return (
     <div className={className}>
+        <ScrollableAnchor id={'about-section'}>
       <div className="container-fluid">
         <div className="row bg-light align-items-center">
           <div className="col img height font1 lead d-flex align-items-center justify-content-flex-start">
@@ -29,6 +31,7 @@ const About = ({ className }) => {
           </div>
         </div>
       </div>
+      </ScrollableAnchor>
     </div>
   );
 };
